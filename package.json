@@ -1,0 +1,30 @@
+{
+	"author"          : {
+		"name"        : "constantology",
+		"email"       : "christos@muigui.com",
+		"url"         : "http://muigui.com"
+	},
+	"description"     : "type checking",
+ 	"devDependencies" : {
+		"chai"        : "*",
+		"mocha"       : "*"
+ 	},
+ 	"engines"         : {
+ 		"node"        : ">= 0.8.x"
+ 	},
+	"keywords"        : ["type", "type checking", "typeof"],
+	"licenses"        : [ {
+		"type"        : "MIT",
+		"url"         : "https://raw.github.com/muigui/useful-type/master/LICENSE"
+	} ],
+	"main"            : "./index.js",
+	"name"            : "useful-type",
+	"repository"      : {
+		"type"        : "git",
+		"url"         : "git@github.com:muigui/useful-type.git"
+	},
+	"scripts"         : {
+		"test"        : "mocha -c --ignore-leaks -R spec -u tdd ./test/runner.js"
+	},
+	"version"         : "0.0.1"
+}
