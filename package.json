@@ -6,8 +6,8 @@
 	},
 	"description"     : "type checking",
  	"devDependencies" : {
-		"chai"        : "*",
-		"mocha"       : "*"
+		"chai"        : "latest",
+		"mocha"       : "latest"
  	},
  	"engines"         : {
  		"node"        : ">= 0.8.x"
