@@ -6,8 +6,11 @@
 	},
 	"description"     : "type checking",
  	"devDependencies" : {
-		"chai"        : "latest",
-		"mocha"       : "latest"
+		"chai"                 : "latest",
+		"mocha"                : "latest",
+		"grunt-contrib-concat" : "latest",
+		"grunt-contrib-uglify" : "latest",
+		"grunt-contrib-watch"  : "latest"
  	},
  	"engines"         : {
  		"node"        : ">= 0.8.x"
@@ -26,5 +29,5 @@
 	"scripts"         : {
 		"test"        : "mocha -c --ignore-leaks -R spec -u tdd ./test/runner.js"
 	},
-	"version"         : "0.0.2"
+	"version"         : "0.0.3"
 }
